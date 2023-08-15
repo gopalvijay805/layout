@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  max-width: 500px;
+}
+
+@media screen and (min-width: 768px) {
+  .card1 {
+    max-width: 1000px;
+  }
+}
